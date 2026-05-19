@@ -25,3 +25,92 @@ body {
   position: relative;
 }
 
+.star-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.stars {
+  display: flex;
+  gap: 6px;
+}
+
+.rating-standers {
+  font-size: 14px;
+  font-weight: 400;
+  color: #cccccc;
+  letter-spacing: 0.5px;
+  min-height: 20px;
+}
+
+.open-dialog-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.open-dialog-btn:hover {
+  background-color: #2563eb;
+}
+
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.dialog {
+  background: #2a2a40;
+  border-radius: 12px;
+  padding: 36px 40px;
+  text-align: center;
+  max-width: 360px;
+  width: 90%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.dialog h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.dialog p {
+  font-size: 14px;
+  color: #aaaacc;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.dialog-close-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.dialog-close-btn:hover {
+  background-color: #2563eb;
+}

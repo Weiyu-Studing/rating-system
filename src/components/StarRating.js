@@ -3,11 +3,11 @@ import Star from './Star';
 
 const ratingStanders = {
   0: 'Click star to rate',
-  1: 'Terrible',
-  2: 'Bad',
-  3: 'OK',
+  1: 'Average',
+  2: 'Better',
+  3: 'Good',
   4: 'Very good',
-  5: 'Amazing',
+  5: 'Excellent',
 };
 
 function StarRating() {
